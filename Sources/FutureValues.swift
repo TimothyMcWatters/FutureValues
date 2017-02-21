@@ -1,6 +1,6 @@
 import Foundation
 
-struct FutureValues {
+//struct FutureValues {
     
     //: # FUTURE VALUE CALCULATOR
     
@@ -21,4 +21,4 @@ struct FutureValues {
     
     //calculateFutureValue(p: 10000, r: 0.06, t: 3)
     
-}
+//}
