@@ -11,7 +11,7 @@ import Foundation
      * param t  Length of time (period) invested in years.
      * prints:  value resultent from furture values formula.
      */
-    func calculateFutureValue(p: Int, r: Double, t: Int) {
+    public func calculateFutureValue(p: Int, r: Double, t: Int) {
         let doubleP:Double = Double(p)
         let doubleT:Double = Double(t)
         let resultString: String
