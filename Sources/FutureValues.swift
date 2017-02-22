@@ -10,8 +10,9 @@ import Foundation
 * prints:  value resultent from furture values formula.
 */
 public func calculateFutureValue(p: Double, r: Double, t: Double) {
+    let rate:Double = r * 0.01
     let resultString: String
-    resultString = String(format: "%.2f", round(100 * (p * (pow((1 + r), t))))/100)
+    resultString = String(format: "%.2f", round(100 * (p * (pow((1 + rate), t))))/100)
     print("Your future value after \(t) years is is $\(resultString)")
 } // End of calculateFutureValue
 
